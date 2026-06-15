@@ -31,3 +31,31 @@ ul, ol {
 li {
     margin-bottom: 8px;
 }
+
+/* 電話番号ボタンのスタイル */
+.phone-btn {
+    display: inline-block;
+    background-color: #d9534f;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 4px;
+    box-shadow: 0 4px 8px rgba(217, 83, 79, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* ホバー時（マウスを乗せたとき）の浮き上がるアニメーション */
+.phone-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(217, 83, 79, 0.4);
+}
+
+/* タップ時（スマホでタップしたとき）の効果 */
+.phone-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(217, 83, 79, 0.35);
+}
