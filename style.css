@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f7fa; /* 薄いグレー背景 */
+}
+
+h1 {
+    color: #d9534f; /* 防災を意識した赤色 */
+    border-bottom: 3px solid #d9534f;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-left: 5px solid #2c3e50; /* 左側に青い太線 */
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+ul, ol {
+    background: #ffffff; /* 白いカード風にする */
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* 軽い影をつける */
+}
+
+li {
+    margin-bottom: 8px;
+}
